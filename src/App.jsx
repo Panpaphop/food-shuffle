@@ -1,14 +1,15 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import FilterPage from "./components/FilterPage";
+import SpicyOrNotPage from "./components/SpicyOrNotPage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-    </>
+    <div className="h-screen flex flex-col justify-center items-center">
+    <h1 className="text-[30px] font-bold text-blue-500">Food Shuffle</h1>
+    {/* <FilterPage/> */}
+    <SpicyOrNotPage/>
+    </div>
   );
 }
 
