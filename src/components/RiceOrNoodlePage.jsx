@@ -13,7 +13,7 @@ const RiceOrNoodlePage = () => {
     return (
       <div className="bg-blue-200 rounded-lg w-[450px] h-[800px] flex flex-col justify-center items-center">
         <h1 className="text-[25px] font-bold">ข้าวหรือเส้น ?</h1>
-        <button className="image-button text-[25px] font-bold border border-solid border-black m-3 ml-8 mr-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300 "onClick={() => handleButtonClick("rice")}>
+        <button className="image-button text-[25px] font-bold border border-solid border-black mt-14 mb-3 ml-8 mr-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300 "onClick={() => handleButtonClick("rice")}>
           <img src={riceIcon} alt="Spicy" className="w-[30%] m-5" /> ข้าว
         </button>
         <button className="image-button text-[25px] font-bold border border-solid border-black m-3 ml-8 mr-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"onClick={() => handleButtonClick("noodle")}>

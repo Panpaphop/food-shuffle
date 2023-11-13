@@ -62,7 +62,7 @@ const ShufflePage = () => {
     return (
       <div className="bg-blue-200 rounded-lg w-[450px] h-[800px] flex flex-col justify-center items-center">
         <h1 className="text-[25px] font-bold">กินอะไรดี?</h1>
-        <div className="text-[25px] h-[40%] font-bold border border-solid border-black m-3 ml-8 mr-8 bg-white rounded-lg flex flex-col justify-around items-center">
+        <div className="text-[25px] h-[40%] font-bold border border-solid border-black mt-14 mb-3 ml-8 mr-8 bg-white rounded-lg flex flex-col justify-around items-center">
           <img src={foodIcon} alt="Spicy" className="w-[30%] m-5" /> {shuffledFood ? shuffledFood.name : "กด Shuffle เพื่อสุ่ม"}
         </div>
         <button className="image-button text-[25px] font-bold border border-solid border-black m-3 ml-8 mr-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"onClick={() => shuffleFood()}>
