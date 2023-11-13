@@ -1,6 +1,6 @@
-# Shuffle Food
+# Food Shuffle
 
-Shuffle Food is a React-based web application that helps you decide what to eat by randomly selecting a food item based on your preferences for spiciness and whether you want rice or noodles.
+Food Shuffle is a React-based web application that helps you decide what to eat by randomly selecting a food item based on your preferences for spiciness and whether you want rice or noodles.
 # Features
 - Select your preferred spiciness level: spicy, not spicy, or both.
 - Choose between rice, noodles, or both.
