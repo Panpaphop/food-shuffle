@@ -65,10 +65,10 @@ const ShufflePage = () => {
         <div className="text-[25px] h-[40%] font-bold border border-solid border-black m-5 bg-white rounded-lg flex flex-col justify-around items-center">
           <img src={foodIcon} alt="Spicy" className="w-[30%] m-5" /> {shuffledFood ? shuffledFood.name : "กด Shuffle เพื่อสุ่ม"}
         </div>
-        <button className="image-button text-[25px] font-bold border border-solid border-black m-5 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"onClick={() => shuffleFood()}>
+        <button className="image-button text-[25px] font-bold border border-solid border-black m-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"onClick={() => shuffleFood()}>
           <img src={shuffleIcon} alt="Both" className="w-[20%] m-5"/> Shuffle
         </button>
-        <button className="image-button text-[25px] font-bold border border-solid border-black m-5 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"onClick={() => setAppState("spicyOrNot")}>
+        <button className="image-button text-[25px] font-bold border border-solid border-black m-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"onClick={() => setAppState("spicyOrNot")}>
           <img src={refreshIcon} alt="Both" className="w-[20%] m-5"/> เลือกใหม่
         </button>
       </div>
