@@ -12,11 +12,9 @@ const ShufflePage = () => {
     const [shuffledFood, setShuffledFood] = useState(null);
 
     const shuffleFood = () => {
-        // Log the values of spiciness and riceOrNoodle for debugging
         console.log("spiciness:", spiciness);
         console.log("riceOrNoodle:", riceOrNoodle);
-      
-        // Filter the food data based on spiciness and riceOrNoodle
+    
         const filteredFood = foodData.filter(
           (food) =>
             (spiciness === "spicy" && food.isSpicy) ||
@@ -38,7 +36,6 @@ const ShufflePage = () => {
         console.log("Filtered RiceOrNoodle Food:", filteredRiceOrNoodleFood);
       
         if (filteredRiceOrNoodleFood.length > 0) {
-          // Randomly select a food item from the filtered list
           const randomIndex = Math.floor(Math.random() * filteredRiceOrNoodleFood.length);
           const randomFood = filteredRiceOrNoodleFood[randomIndex];
           console.log("Selected Food:", randomFood);
@@ -46,12 +43,6 @@ const ShufflePage = () => {
         } else {
           setShuffledFood(null);
         }
-      };
-      const handleShuffleClick = () => {
-        console.log(spiciness)
-        console.log(riceOrNoodle)
-        console.log(foodData)
-        console.log(filteredFood)
       };
       useEffect(() => {
         if (appState === "shuffle") {
