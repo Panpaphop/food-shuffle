@@ -1,9 +1,11 @@
-# React + Vite
+# Food Shuffle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Food Shuffle is a React-based web application that helps you decide what to eat by randomly selecting a food item based on your preferences for spiciness and whether you want rice or noodles.
+# Features
+- Select your preferred spiciness level: spicy, not spicy, or both.
+- Choose between rice, noodles, or both.
+- Shuffle and randomly select a food item that matches your preferences.
+- User-friendly interface for an easy food decision-making process.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# food-shuffle
+# [>>Try here<<](https://food-shuffle-ryu.netlify.app/)
