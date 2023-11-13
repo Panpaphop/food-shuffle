@@ -265,7 +265,7 @@ const foodData = [
       },
       {
         id: 45,
-        name: "ผัดซิอิ๊ว",
+        name: "ผัดซีอิ๊ว",
         isSpicy: false,
         isRice: false,
       },
@@ -423,13 +423,13 @@ const foodData = [
         id: 71,
         name: "ไก่ทอด",
         isSpicy: false,
-        isRice: false,
+        isRice: true,
       },
       {
         id: 72,
         name: "หมูทอด",
         isSpicy: false,
-        isRice: false,
+        isRice: true,
       },
       {
         id: 73,
