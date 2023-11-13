@@ -15,19 +15,19 @@ const SpicyOrNotPage = () => {
     <div className="bg-blue-200 rounded-lg w-[450px] h-[800px] flex flex-col justify-center items-center">
       <h1 className="text-[25px] font-bold">กินเผ็ดไหม ?</h1>
       <button
-        className="image-button text-[25px] font-bold border border-solid border-black m-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"
+        className="image-button text-[25px] font-bold border border-solid border-black m-3 ml-8 mr-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"
         onClick={() => handleButtonClick("spicy")}
       >
         <img src={spicyIcon} alt="Spicy" className="w-[30%] m-5" /> เผ็ด
       </button>
       <button
-        className="image-button text-[25px] font-bold border border-solid border-black m-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"
+        className="image-button text-[25px] font-bold border border-solid border-black m-3 ml-8 mr-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"
         onClick={() => handleButtonClick("notSpicy")}
       >
         <img src={nonSpicyIcon} alt="Non-Spicy" className="w-[30%] m-5" /> ไม่เผ็ด
       </button>
       <button
-        className="image-button text-[25px] font-bold border border-solid border-black m-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"
+        className="image-button text-[25px] font-bold border border-solid border-black m-3 ml-8 mr-8 bg-gray-200 rounded-lg flex flex-row justify-around items-center focus:bg-gray-300"
         onClick={() => handleButtonClick("both")}
       >
         <img src={bothIcon} alt="Both" className="w-[30%] m-5" /> ได้หมด
